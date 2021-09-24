@@ -27,7 +27,7 @@ steps:
 
 - script: |
     python -m pip install --upgrade pip
-    pip install -r requirements.txt
+    pip install -r requirements.txt  --use-feature=2020-resolver
   displayName: 'Install dependencies'
 
 - script: |
